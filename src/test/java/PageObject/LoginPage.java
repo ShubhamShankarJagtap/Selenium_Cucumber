@@ -12,6 +12,9 @@ public class LoginPage extends BaseClass {
     By Password = By.id("Password");
     By LOG_IN = By.xpath("//button[text() = 'Log in']");
     By Logout = By.linkText("Logout");
+    WebElement emailErrorMsg = driver.findElement(By.id("Email-error"));
+    WebElement invalidCred = driver.findElement(By.xpath("//div[text()='Login was unsuccessful. Please correct the errors and try again.']"));
+    WebElement emptyPassWord = driver.findElement(By.xpath("//li[text()='The credentials provided are incorrect']"));
 
     public LoginPage(WebDriver driver){
         this.driver = driver;
@@ -37,5 +40,20 @@ public class LoginPage extends BaseClass {
     public void clickLogoutButton(){
 
         click(Logout);
+    }
+
+    public String getInvalidEmailErrorMsg(){
+
+     return emailErrorMsg.getText();
+    }
+
+    public String getInvalidCred(){
+
+        return invalidCred.getText();
+    }
+
+    public String getEmptyPassword(){
+
+        return emptyPassWord.getText();
     }
 }
