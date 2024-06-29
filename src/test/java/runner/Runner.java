@@ -8,9 +8,10 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        features = ".//feature//login.feature",
+        features = ".//feature/login.feature",
         glue = "stepdefinition",
-//        dryRun = true,
+//        tags = "Outlines",
+        dryRun = false,
         monochrome = true,
         plugin = {"pretty", "html:Report/CucumberReport/Report.htm"}
 )

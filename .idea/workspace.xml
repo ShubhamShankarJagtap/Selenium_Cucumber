@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9738f3c1-a4d9-4d4c-bb01-f70c8588e1e0" name="Changes" comment="First commit.">
+    <list default="true" id="9738f3c1-a4d9-4d4c-bb01-f70c8588e1e0" name="Changes" comment="Invalid Login Scenario commit.">
+      <change afterPath="$PROJECT_DIR$/feature/customer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject/CustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/CreateCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/feature/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShubhamShankarJagtap&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ShubhamShankarJagtap/Selenium_Cucumber.git&quot;,
+    &quot;accountId&quot;: &quot;3add1fcd-35b9-41fa-8f0b-1e4b00e610da&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -39,28 +52,65 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Cucumber Java.Scenario: Verify the create customer functionality.executor": "Run",
+    "Cucumber Java.Scenario: Verify the dataTable with the map..executor": "Run",
     "Cucumber Java.Scenario: Verify the login functionality with invalid credentials.executor": "Run",
+    "Cucumber Java.Scenario: verify the register functionality. (1).executor": "Run",
+    "Cucumber Java.Scenario: verify the register functionality..executor": "Run",
     "JUnit.Runner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.ExcelDataReader.executor": "Run",
+    "TestNG.ExcelHandling.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Eclipse_IDE 2023_WorkSpace/selenium_Cucumber",
+    "last_opened_file_path": "E:/Intellij workspace 2024/Cucumber_Selenium",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "F:/Intellij workspace 2024/Cucumber_Selenium/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify the login functionality with invalid credentials">
-    <configuration name="Scenario: Verify the login functionality with invalid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExcelHandling">
+    <configuration name="Scenario: verify the register functionality. (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/feature/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/feature/forOutline.feature" />
       <option name="GLUE" value="stepdefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber_Selenium" />
-      <option name="NAME_FILTER" value="^Verify the login functionality with invalid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the login functionality with invalid credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify the login functionality with invalid credentials" />
+      <option name="NAME_FILTER" value="^verify the register functionality\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^verify the register functionality\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: verify the register functionality." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: verify the register functionality." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/feature/Register.feature" />
+      <option name="GLUE" value="stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber_Selenium" />
+      <option name="NAME_FILTER" value="^verify the register functionality\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^verify the register functionality\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: verify the register functionality." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -87,10 +137,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExcelDataReader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepdefinition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="stepdefinition.ExcelDataReader" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelHandling" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.ExcelHandling" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Verify the login functionality with invalid credentials" />
+        <item itemvalue="TestNG.ExcelHandling" />
+        <item itemvalue="TestNG.ExcelDataReader" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: verify the register functionality. (1)" />
+        <item itemvalue="Cucumber Java.Scenario: verify the register functionality." />
       </list>
     </recent_temporary>
   </component>
@@ -111,13 +198,36 @@
       <option name="project" value="LOCAL" />
       <updated>1707809882575</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Invalid Login Scenario commit.">
+      <option name="closed" value="true" />
+      <created>1707904649656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707904649656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit." />
+    <MESSAGE value="Invalid Login Scenario commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Invalid Login Scenario commit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -129,7 +239,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/test/java/stepdefinition/Login.java</url>
-          <line>17</line>
+          <line>18</line>
           <properties field="driver" class="stepdefinition.Login" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>

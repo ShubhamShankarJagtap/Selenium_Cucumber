@@ -9,20 +9,21 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import java.util.Map;
 
 public class Login extends BaseClass {
 
-    public WebDriver driver;
+   static public WebDriver driver;
     public LoginPage loginPage;
 
     @Given("I launch the {string} browser.")
     public void iLaunchTheBrowser(String browser) {
 
         launchBrowser(browser);
-        this.driver = super.driver;
+        driver = BaseClass.driver;
         loginPage = new LoginPage(driver);
     }
 
@@ -93,4 +94,5 @@ public class Login extends BaseClass {
     @Then("An error message should be displayed {string}")
     public void anErrorMessageShouldBeDisplayed(String arg0) {
     }
+
 }
